@@ -1,4 +1,16 @@
-//YOUR FIRE BASE LINKS
+const firebaseConfig = {
+  apiKey: "AIzaSyDsrdoUZ_xOuQgLi2X61Mb5flQCQCBgOpI",
+  authDomain: "kwitter-4b6a1.firebaseapp.com",
+  databaseURL: "https://kwitter-4b6a1-default-rtdb.firebaseio.com",
+  projectId: "kwitter-4b6a1",
+  storageBucket: "kwitter-4b6a1.appspot.com",
+  messagingSenderId: "746193640580",
+  appId: "1:746193640580:web:86581caba523a3095036d1",
+  measurementId: "G-RYX11VQB3C"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 	user_name = localStorage.getItem("user_name");
 	room_name = localStorage.getItem("room_name");
