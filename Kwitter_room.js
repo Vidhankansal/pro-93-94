@@ -12,7 +12,7 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-  user_name = localStorage.getItem("user_name");
+  user_name = localStorage.getItem("Username");
 
 document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
 
