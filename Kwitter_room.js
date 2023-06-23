@@ -14,7 +14,7 @@ firebase.initializeApp(firebaseConfig);
 
   user_name = localStorage.getItem("Username");
 
-document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
+document.getElementById("welcome_user_name").innerHTML = "Welcome " + user_name + "!";
 
 function addRoom()
 {
